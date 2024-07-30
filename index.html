@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zoo - One Page Website</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link href="styles.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <a class="navbar-brand" href="#">Zoo</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="#hero">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#animals">Animals</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#visit">Visit Us</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contact">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header id="hero" class="hero bg-primary text-white text-center py-5">
+        <div class="container">
+            <h1 class="display-4">Welcome to the Zoo</h1>
+            <p class="lead">Discover the wonders of wildlife and enjoy a fun day out for the whole family!</p>
+        </div>
+    </header>
+
+    <!-- Animals Section -->
+    <section id="animals" class="py-5">
+        <div class="container">
+            <h2 class="text-center">Our Animals</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card mb-4">
+                        <img src="https://c4.wallpaperflare.com/wallpaper/445/568/57/lioness-and-lion-picture-wallpaper-preview.jpg" class="card-img-top" alt="Lion">
+                        <div class="card-body">
+                            <h5 class="card-title">Lions</h5>
+                            <p class="card-text">The king of the jungle, our lions are a majestic sight to behold.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card mb-4">
+                        <img src="https://i.pinimg.com/564x/5a/7c/5b/5a7c5bb42ee3b6b5416e81eb72bf6428.jpg" class="card-img-top" alt="Elephant">
+                        <div class="card-body">
+                            <h5 class="card-title">Elephants</h5>
+                            <p class="card-text">Our gentle giants are known for their intelligence and strong social bonds.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card mb-4">
+                        <img src="https://i.pinimg.com/564x/1a/93/d7/1a93d73d6daa6b7f698ff74d784972ff.jpg" class="card-img-top" alt="Giraffe">
+                        <div class="card-body">
+                            <h5 class="card-title">Giraffes</h5>
+                            <p class="card-text">With their long necks and unique patterns, giraffes are a favorite among visitors.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Visit Us Section -->
+    <section id="visit" class="bg-light py-5">
+        <div class="container">
+            <h2 class="text-center">Plan Your Visit</h2>
+            <p>We are open daily from 9 AM to 5 PM. Tickets are available at the gate or online. Check out our website for special events and discounts.</p>
+            <p><strong>Address:</strong> 123 Zoo Lane, Animal City, AN 12345</p>
+            <p><strong>Phone:</strong> (123) 456-7890</p>
+            <p><strong>Email:</strong> info@zoo.com</p>
+        </div>
+    </section>
+<!-- Contact Section -->
+    <section id="contact" class="py-5">
+        <div class="container">
+            <h2 class="text-center">Contact Us</h2>
+            <form>
+                <div class="form-row">
+                    <div class="form-group col-md-6">
+                        <label for="name">Name</label>
+                        <input type="text" class="form-control" id="name" placeholder="Your Name">
+                    </div>
+                    <div class="form-group col-md-6">
+                        <label for="email">Email</label>
+                        <input type="email" class="form-control" id="email" placeholder="Your Email">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea class="form-control" id="message" rows="4" placeholder="Your Message"></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white text-center py-3">
+        <p>&copy; 2024 Zoo Website. All rights reserved.</p>
+    </footer>
+
+    <!-- Bootstrap JS and dependencies -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
